@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+.feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 16px;
+  grid-row-gap: 30px;
+  padding: 1rem;
+  width: 100%;
+  height: 82vh;
+  overflow-y: auto;
+}
+
+.feed::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+.feed::-webkit-scrollbar-track {
+  background-color: transparent; /* Background color of the scrollbar track */
+}
+
+.feed::-webkit-scrollbar-thumb {
+  background-color: #18499e; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Border radius of the scrollbar thumb */
+}
+
+.feed::-webkit-scrollbar-thumb:hover {
+  background-color: #2a6fe7; /* Color of the scrollbar thumb on hover */
+}
+
+.card {
+  width: 100%;
+  padding-bottom: 2.5rem;
+}
+.card .image {
+  width: 100%;
+  height: 75%;
+}
+.card .descp {
+  width: 100%;
+  height: 25%;
+  padding-top: 0.4rem;
+}
+
+.card .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6%;
+}
+.jost {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+}
+.jost h2 {
+  font-size: 1rem;
+}
+.jost h3 {
+  padding-top: 0.5rem;
+  font-size: small;
+}
+.jost p {
+  font-size: small;
+}
+
+@media (max-width: 384px) {
+  .jost h2 {
+    font-size: 5vw;
+  }
+  .jost h3 {
+    padding-top: 0.5rem;
+    font-size: 4.5vw;
+  }
+  .jost p {
+    font-size: 3.5vw;
+  }
+}

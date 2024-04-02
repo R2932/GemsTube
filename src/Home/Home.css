@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+  width: 87vw; /* Adjusted width calculation */
+  height: 90vh;
+  left: 13vw;
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+  transition: width 0.5s ease, left 0.5s ease;
+}
+.Large-Container {
+  position: relative;
+  width: 100vw;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transform: translateX();
+}
+
+@media (max-width: 850px) {
+  .show-resp-container {
+    position: relative;
+    width: 100vw;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transform: translateX();
+  }
+  .reduce-c {
+    position: relative;
+    width: 80vw; /* Adjusted width calculation */
+    height: 90vh;
+    left: 20vw;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+    transition: width 0.5s ease, left 0.5s ease;
+  }
+}

@@ -28,7 +28,7 @@ I stringyfied API Endpoint manually into data.json file and used it locally whil
 
 
 2. Responsive Design :
-<img src="Responsive.jpg" alt="" width="100px"/>
+<img src="Responsive.jpg" alt="" width="300px"/>
 
 
 

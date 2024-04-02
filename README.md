@@ -22,6 +22,7 @@ I stringyfied API Endpoint manually into data.json file and used it locally whil
 
 ### Home Page
 1. Desktop : 
+
 ![Desktop](Desktop.jpg)
 
 

@@ -10,7 +10,9 @@ proficiency in frontend frameworks like React.
 This Project is made with Vite + React
 
 ## Developer's note:
-I tried fetching API endpoints with `fetch` and `axios` but due to console error stating *Access to XMLHttpRequest at 'https://ypapi.formz.in/api/public/videos' from origin 'http://localhost:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.*  
+I tried fetching API endpoints with `fetch` and `axios` but due to console error stating :
+
+*Access to XMLHttpRequest at 'https://ypapi.formz.in/api/public/videos' from origin 'http://localhost:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.*  
 
 this API endpoint cant be accessed. I also tried using proxy but didnt worked.
 
